@@ -1,4 +1,3 @@
-
 function MovieCard({ movie }) {
   return (
     <div className="card">
