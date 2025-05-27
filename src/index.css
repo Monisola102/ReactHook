@@ -1,0 +1,142 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.movie {
+  background: #000;
+  width: 100%;
+  height: auto;
+}
+.movie h2 {
+  color: #f7e7ce;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+.movie .note {
+  color: #98ff98;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+.movielist {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.card {
+  width: 80%;
+  /* height: 50vh; */
+  margin: 0 auto;
+}
+.card-content {
+  width: 100%;
+  border: 1px solid #81d1d1;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.card-content:hover {
+  transform: translateZ(20px) scale(1.05);
+  z-index: 10;
+}
+.card-content .pic {
+  width: 100%;
+  height: 200px;
+}
+.card-content h3 {
+  color: #f7e7ce;
+  margin: 10px;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.card-content p {
+  color: #fff;
+  margin: 10px;
+  max-width: 300px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+}
+.card-content span {
+  color: #ffdab9;
+  font-size: 15px;
+  font-family: serif;
+  margin: 10px 10px 15px 10px;
+}
+.create {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.search1 {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  width: 30%;
+  margin-left: 3.5rem;
+  /* background: red; */
+  padding: 5px;
+}
+.search1 h4 {
+  color: #ffdab9;
+  padding: 3px;
+}
+.search input {
+  background: #f7e7ce;
+  border: none;
+  padding: 5px;
+  gap: 10px;
+}
+.searchRating {
+  margin-left: 10px;
+}
+.add {
+  /* background-color: red; */
+  width: 30%;
+  padding: 5px;
+  margin-right: 3rem;
+}
+.add h5 {
+  color: #ffdab9;
+  padding: 3px;
+  font-size: 15px;
+}
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.form input {
+  margin: 2px;
+  background: #f7e7ce;
+  border: none;
+  padding: 5px;
+  gap: 10px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  width: 50%;
+  margin-top: 5px;
+  border: none;
+  padding: 5px;
+  color: #ffdab9;
+  background: #756f6f;
+  font-size: 15px;
+}
+.btn:hover{
+    background: #000;
+    color: #fff;
+}
